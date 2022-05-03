@@ -19,6 +19,15 @@ git config --global user.email $useremail
 scoop install nvm
 nvm install latest
 
+# Instalar roudedTB #
+winget install RoundedTB
+
+# Instalar Powertoys #
+winget install PowerToys
+
+# Instalar NiceTaskbar #
+winget install NiceTaskbar
+
 # Instalar Oh My Posh (Prompt theme engine) #
 scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json
 winget install oh-my-posh
@@ -40,3 +49,5 @@ rm "./my-powershell-setup" -r -force
 
 ## conectar ao profile do shell ##
 echo ". ~\.config\powershell\my-profile.ps1" > $profile
+
+exit
