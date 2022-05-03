@@ -19,16 +19,10 @@ git config --global user.email $useremail
 scoop install nvm
 nvm install latest
 
-# Instalar Neovim #
-scoop install neovim gcc
-
 # Instalar Oh My Posh (Prompt theme engine) #
-Install-Module posh-git -Scope CurrentUser -Force
-Install-Module oh-my-posh -Scope CurrentUser -Force
+scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json
+winget install oh-my-posh
 
-# Instalar Terminal Icons #
-Install-Module -Name Terminal-Icons -Repository PSGallery -Force
-Import-Module Terminal-Icons
 
 # Criar um perfil de usuário #
 ## Criar a pasta com perfil personalizado ##
