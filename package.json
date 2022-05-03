@@ -1,0 +1,12 @@
+{
+  "name": "@guhcalm/my-powershell-setup",
+  "version": "1.0.0",
+  "description": "Meu Setup e Tema personalizado para powershell",
+  "main": "./src/index.ps1",
+  "scripts": {
+    "install": "./src/index.ps1"
+  },
+  "keywords": [],
+  "author": "Gustavo Henrique <guhcalm@outlook.com>",
+  "license": "MIT"
+}
